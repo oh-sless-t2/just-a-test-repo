@@ -19,7 +19,7 @@ jobs:
           allow-no-subscriptions: false
           
 
-      - name: Validate Infrastructure deployment
+      - name: Diags - List resource groups
         uses: Azure/cli@1.0.4
         with:
           #azcliversion: ${{ env.AZCLIVERSION }}
